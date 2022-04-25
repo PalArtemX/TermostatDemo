@@ -11,8 +11,18 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .foregroundColor(.colorTheme.temperatureRing2)
     }
 }
+
+
+
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
