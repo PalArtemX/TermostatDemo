@@ -19,6 +19,9 @@
 		F88151082817E5FC00B3070D /* ThermometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151072817E5FC00B3070D /* ThermometerView.swift */; };
 		F881510A2817E64D00B3070D /* ThermometerPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151092817E64D00B3070D /* ThermometerPlaceholderView.swift */; };
 		F881510C2817EBF300B3070D /* ThermometerDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881510B2817EBF300B3070D /* ThermometerDialView.swift */; };
+		F881510E2817F5C000B3070D /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881510D2817F5C000B3070D /* Status.swift */; };
+		F88151102817F65100B3070D /* ThermometersSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F881510F2817F65100B3070D /* ThermometersSummaryView.swift */; };
+		F898D15E281805A5008B005B /* ThermometerScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F898D15D281805A5008B005B /* ThermometerScaleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		F88151072817E5FC00B3070D /* ThermometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerView.swift; sourceTree = "<group>"; };
 		F88151092817E64D00B3070D /* ThermometerPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerPlaceholderView.swift; sourceTree = "<group>"; };
 		F881510B2817EBF300B3070D /* ThermometerDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerDialView.swift; sourceTree = "<group>"; };
+		F881510D2817F5C000B3070D /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		F881510F2817F65100B3070D /* ThermometersSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometersSummaryView.swift; sourceTree = "<group>"; };
+		F898D15D281805A5008B005B /* ThermometerScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerScaleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				F88151092817E64D00B3070D /* ThermometerPlaceholderView.swift */,
 				F881510B2817EBF300B3070D /* ThermometerDialView.swift */,
 				F88150FE281749F400B3070D /* ClimateCardView.swift */,
+				F881510F2817F65100B3070D /* ThermometersSummaryView.swift */,
+				F898D15D281805A5008B005B /* ThermometerScaleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				F88151012817DFD500B3070D /* ClimateCard.swift */,
+				F881510D2817F5C000B3070D /* Status.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,9 +198,12 @@
 				F88150E92817410D00B3070D /* TermostatDemoApp.swift in Sources */,
 				F88150FD281748F900B3070D /* MainView.swift in Sources */,
 				F88151022817DFD500B3070D /* ClimateCard.swift in Sources */,
+				F88151102817F65100B3070D /* ThermometersSummaryView.swift in Sources */,
+				F881510E2817F5C000B3070D /* Status.swift in Sources */,
 				F88150F92817416800B3070D /* Color.swift in Sources */,
 				F88150FF281749F400B3070D /* ClimateCardView.swift in Sources */,
 				F88151042817E02800B3070D /* Previews.swift in Sources */,
+				F898D15E281805A5008B005B /* ThermometerScaleView.swift in Sources */,
 				F88151082817E5FC00B3070D /* ThermometerView.swift in Sources */,
 				F881510A2817E64D00B3070D /* ThermometerPlaceholderView.swift in Sources */,
 				F881510C2817EBF300B3070D /* ThermometerDialView.swift in Sources */,
