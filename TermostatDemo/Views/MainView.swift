@@ -15,10 +15,13 @@ struct MainView: View {
                 Color.colorTheme.background
                     .ignoresSafeArea()
                 
-                
                 ScrollView {
-                    // MARK: - Climate cards
                     VStack(spacing: 0.0) {
+                        // MARK: - Thermometer
+                        ThermometerView()
+                            .padding()
+                        
+                        // MARK: - Climate cards
                         HStack(spacing: 20.0) {
                             ClimateCardView(climateCard: ClimateCard(iconName: "humidity.fill", index: "Inside", measure: "49%"))
                             
@@ -30,7 +33,7 @@ struct MainView: View {
     
             
             .navigationTitle("Thermostat")
-            .navigationBarTitleDisplayMode(.inline)
+            //.navigationBarTitleDisplayMode(.inline)
         }
     }
 }

@@ -9,12 +9,33 @@ import SwiftUI
 
 struct ThermometerView: View {
     private let ringSize: CGFloat = 220
+    private let minTemp: CGFloat = 4
+    private let maxTemp: CGFloat = 30
     
-    @State private var ringValue: CGFloat = 0.5
+    @State private var currentTemp: CGFloat = 0
     @State private var degrees: CGFloat = 36
+    
+    var targetTemp: CGFloat {
+        return min(max(degrees / 360 * 40, minTemp), maxTemp)
+    }
+    var ringValue: CGFloat {
+        return currentTemp / 40
+    }
+    var status: Status {
+        if currentTemp < targetTemp {
+            return .heating
+        } else if currentTemp > targetTemp {
+            return .cooling
+        } else {
+            return .reaching
+        }
+    }
     
     var body: some View {
         ZStack {
+            // MARK: - Thermometer Scale
+            ThermometerScaleView()
+            
             // MARK: - Placeholder
             ThermometerPlaceholderView()
             
@@ -29,6 +50,13 @@ struct ThermometerView: View {
             
             // MARK: - Thermometer Dial
             ThermometerDialView(degrees: degrees)
+            
+            // MARK: - Thermometer Summary
+            ThermometersSummaryView(status: status, showStatus: true, temperature: currentTemp)
+        }
+        .onAppear {
+            currentTemp = 22
+            degrees = currentTemp / 40 * 360
         }
     }
 }
