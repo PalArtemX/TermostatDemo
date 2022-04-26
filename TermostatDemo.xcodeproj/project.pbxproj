@@ -16,6 +16,8 @@
 		F88150FF281749F400B3070D /* ClimateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88150FE281749F400B3070D /* ClimateCardView.swift */; };
 		F88151022817DFD500B3070D /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151012817DFD500B3070D /* ClimateCard.swift */; };
 		F88151042817E02800B3070D /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151032817E02800B3070D /* Previews.swift */; };
+		F88151082817E5FC00B3070D /* ThermometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151072817E5FC00B3070D /* ThermometerView.swift */; };
+		F881510A2817E64D00B3070D /* ThermometerPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151092817E64D00B3070D /* ThermometerPlaceholderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		F88150FE281749F400B3070D /* ClimateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCardView.swift; sourceTree = "<group>"; };
 		F88151012817DFD500B3070D /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
 		F88151032817E02800B3070D /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		F88151072817E5FC00B3070D /* ThermometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerView.swift; sourceTree = "<group>"; };
+		F88151092817E64D00B3070D /* ThermometerPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerPlaceholderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				F88150FC281748F900B3070D /* MainView.swift */,
+				F88151072817E5FC00B3070D /* ThermometerView.swift */,
+				F88151092817E64D00B3070D /* ThermometerPlaceholderView.swift */,
 				F88150FE281749F400B3070D /* ClimateCardView.swift */,
 			);
 			path = Views;
@@ -183,6 +189,8 @@
 				F88150F92817416800B3070D /* Color.swift in Sources */,
 				F88150FF281749F400B3070D /* ClimateCardView.swift in Sources */,
 				F88151042817E02800B3070D /* Previews.swift in Sources */,
+				F88151082817E5FC00B3070D /* ThermometerView.swift in Sources */,
+				F881510A2817E64D00B3070D /* ThermometerPlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
