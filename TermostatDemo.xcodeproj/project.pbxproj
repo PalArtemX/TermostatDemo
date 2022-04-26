@@ -13,6 +13,9 @@
 		F88150F92817416800B3070D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88150F82817416800B3070D /* Color.swift */; };
 		F88150FB2817485500B3070D /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88150FA2817485500B3070D /* LinearGradient.swift */; };
 		F88150FD281748F900B3070D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88150FC281748F900B3070D /* MainView.swift */; };
+		F88150FF281749F400B3070D /* ClimateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88150FE281749F400B3070D /* ClimateCardView.swift */; };
+		F88151022817DFD500B3070D /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151012817DFD500B3070D /* ClimateCard.swift */; };
+		F88151042817E02800B3070D /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88151032817E02800B3070D /* Previews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F88150F82817416800B3070D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F88150FA2817485500B3070D /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		F88150FC281748F900B3070D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F88150FE281749F400B3070D /* ClimateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCardView.swift; sourceTree = "<group>"; };
+		F88151012817DFD500B3070D /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
+		F88151032817E02800B3070D /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			children = (
 				F88150E82817410D00B3070D /* TermostatDemoApp.swift */,
 				F88150F62817413500B3070D /* Views */,
+				F88151002817DFB500B3070D /* Models */,
 				F88150F72817415600B3070D /* Extensions */,
 				F88150EC2817410E00B3070D /* Assets.xcassets */,
 				F88150EE2817410E00B3070D /* Preview Content */,
@@ -68,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				F88150EF2817410E00B3070D /* Preview Assets.xcassets */,
+				F88151032817E02800B3070D /* Previews.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F88150FC281748F900B3070D /* MainView.swift */,
+				F88150FE281749F400B3070D /* ClimateCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +96,14 @@
 				F88150FA2817485500B3070D /* LinearGradient.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F88151002817DFB500B3070D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F88151012817DFD500B3070D /* ClimateCard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +179,10 @@
 				F88150FB2817485500B3070D /* LinearGradient.swift in Sources */,
 				F88150E92817410D00B3070D /* TermostatDemoApp.swift in Sources */,
 				F88150FD281748F900B3070D /* MainView.swift in Sources */,
+				F88151022817DFD500B3070D /* ClimateCard.swift in Sources */,
 				F88150F92817416800B3070D /* Color.swift in Sources */,
+				F88150FF281749F400B3070D /* ClimateCardView.swift in Sources */,
+				F88151042817E02800B3070D /* Previews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
